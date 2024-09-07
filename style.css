@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+header{
+    background-color: #ecca23;
+font-size: 15px;
+color: rgb(86, 5, 104);
+display: flex;
+flex-direction: row;
+
+
+
+}
+header ul {
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+header ul li {
+    margin: 30px;
+    
+}
+.logo {
+    width: 250px;
+    height: 100px;
+ object-fit: cover;
+}
+
+body{
+    background-image: url(Imágenes/fondo.jpg);
+    background-size: cover;
+
+}
+
+main{
+    p{
+        background-color: #ecca23;
+        text-decoration: purple;
+    }
+
+    .textovideo {
+        background-color: purple;
+        color: #ecca23;
+        margin-top: 50px;
+        text-align: center;
+
+
+    }
+    .video1 {
+        margin-left: 500px;
+    }
+    .video3 {
+        margin-left: 500px;
+    }
+
+    .daniela {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 50px;
+        margin-left: 500px;
+        
+        
+        
+    }
+
+    .semblanza {
+        background-color: #ecca23;
+        color: #73198a;
+        margin: 50px;
+    }
+h1 {
+    text-align: center;
+font-size: 100px;
+font-family: "Pacifico";
+color: #73198a;
+    }
+}
+
+.carrusel{
+    width: 450px;;
+    margin-left: 375px;
+}
+footer{
+    background-color: #7b3b3b;
+    p{
+        color: white;
+        padding: 10px;
+    }
+}
+
+a{ text-decoration: none;
+color: #782387;
+
+}
